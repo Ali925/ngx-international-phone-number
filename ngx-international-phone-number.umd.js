@@ -1,7 +1,7 @@
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@angular/common'), require('@angular/forms'), require('google-libphonenumber')) :
 	typeof define === 'function' && define.amd ? define(['exports', '@angular/core', '@angular/common', '@angular/forms', 'google-libphonenumber'], factory) :
-	(factory((global['ngx-international-phone-number'] = {}),global.core,global.common,global.forms,global.glibphone));
+	(factory((global['ngx-international-phone-number-fix'] = {}),global.core,global.common,global.forms,global.glibphone));
 }(this, (function (exports,core,common,forms,glibphone) { 'use strict';
 
 /**
